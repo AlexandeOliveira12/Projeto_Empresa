@@ -13,15 +13,4 @@ public class FuncionarioAutenticavel extends Funcionario{
   public FuncionarioAutenticavel(int codigo) {
     super(codigo);
   }
-
-  public boolean autentica(int senha) {
-    if (senha == 123456) {
-      return true;
-    }
-
-    else {
-      return false;
-    }
-  }
-
 }

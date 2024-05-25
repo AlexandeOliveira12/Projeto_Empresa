@@ -58,6 +58,4 @@ public abstract class Funcionario {
     public static int getQtdeObjetosFunc() {
         return qtdeObjetosFunc;
     }
-
-
 }

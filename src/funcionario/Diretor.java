@@ -1,6 +1,6 @@
 package funcionario;
 
-public abstract class Diretor extends Funcionario{
+public abstract class Diretor extends Funcionario implements Autentica{
   protected double pagProducao;
 
   public Diretor() {
@@ -25,5 +25,13 @@ public abstract class Diretor extends Funcionario{
 
   public void setPagProducao(double pagProducao) {
     this.pagProducao = pagProducao;
+  }
+  public boolean autentica(int senha) {
+    if (senha == 123456) {
+      return true;
+    }
+    else {
+      return false;
+    }
   }
 }

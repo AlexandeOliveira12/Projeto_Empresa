@@ -54,4 +54,18 @@ public abstract class Funcionario {
     public static String getNomeApp() {
         return nomeApp;
     }
+
+    public static int getQtdeObjetosFunc() {
+        return qtdeObjetosFunc;
+    }
+
+    public boolean autentica(int senha) {
+        if (senha == 123456) {
+            return true;
+        }
+
+        else {
+            return false;
+        }
+    }
 }

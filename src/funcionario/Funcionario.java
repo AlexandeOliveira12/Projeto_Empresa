@@ -59,13 +59,5 @@ public abstract class Funcionario {
         return qtdeObjetosFunc;
     }
 
-    public boolean autentica(int senha) {
-        if (senha == 123456) {
-            return true;
-        }
 
-        else {
-            return false;
-        }
-    }
 }

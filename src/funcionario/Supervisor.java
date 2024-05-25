@@ -1,0 +1,4 @@
+package funcionario;
+
+public class Supervisor extends Funcionario{
+}
